@@ -1,0 +1,20 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+input{
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --border-color: #023e8a;
+  --btn-bkg-danger:  #023e9a;
+  --btn-bkg-danger-hover: #01224E; 
+}

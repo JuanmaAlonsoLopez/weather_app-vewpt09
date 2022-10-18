@@ -1,0 +1,26 @@
+.temp {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.label {
+    font-size: 0.85rem;
+    font-weight: 300;
+    padding-top: 2.5rem;
+    font-weight: 500;
+    font-size: large;
+    
+}
+
+.label,
+.value {
+    text-align: left;
+    padding-left: 0.6rem;
+}
+
+.value {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+

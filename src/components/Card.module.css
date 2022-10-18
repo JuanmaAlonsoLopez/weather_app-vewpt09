@@ -1,0 +1,75 @@
+.card {
+    position: relative;
+    margin: auto;
+    margin-top: 10rem;
+
+    border: 1px solid #023d8a5d;
+    border-radius: 1rem;
+
+    padding: 0.25rem;
+
+    width: 12rem;
+    height: 19rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(to top left, #9fccfa95, #6f7af795);
+}
+
+
+
+.cardBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-justify:auto;
+    position: absolute;
+    top: 0.30rem;
+    right: 0.30rem;
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    width: 1.5rem;
+    height: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 9999px;
+    border: .05px solid #6f7bf7;
+    box-shadow: 2px 2px 6px #6f7bf7;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+.cardBtn:hover {
+    background-color: #414cc438;
+    transition: 250ms;
+}
+
+.card > section {
+    display: grid;
+    grid-template-rows: repeat(3, .7fr);
+}
+
+.name {
+    text-align: center;
+    font-size: 1.60rem;
+    font-weight: 400;
+    color: #f7ede2;
+    text-shadow: 1.5px 1.5px 3px #03045e;
+}
+
+.card > section > img {
+    margin-left: 5rem;
+}
+
+.mainCard{
+    background-image: linear-gradient(to top left, #9fccfa30, #6f7af730);
+    width: 25rem;
+    height: calc(25rem * 0.80rem);
+}
+
+.mainCard > .lebel{
+    color: wheat;
+}
